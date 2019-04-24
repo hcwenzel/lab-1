@@ -49,7 +49,7 @@ footer {
 }
 
 .title {
-    padding-top: 60px; 
+    padding-top: 120px; 
     font-size: 2em;
 }
 
@@ -59,14 +59,21 @@ footer {
     padding-left: 20px;
 }
 
+.circles {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    float: right;
+}
+
 .red-circle {
     background-color: rgba(247, 136, 167, 0.6);
     height: 280px;
     width: 280px;
     border-radius: 50%;
     position: absolute;
-    right: 11%;
-    top: 30%;
+    right: 30%;
+    top: -50%;
 }
 
 .purple-circle {
@@ -75,8 +82,8 @@ footer {
     width: 140px;
     border-radius: 50%;
     position: absolute;
-    right: 4%;
-    top: 34%;
+    right: 0%;
+    top: -35%;
 }
 
 .orange-circle {
@@ -85,6 +92,6 @@ footer {
     width: 180px;
     border-radius: 50%;
     position: absolute;
-    right: 4%;
-    top: 50%;
+    right: 0%;
+    top: 5%;
 }
